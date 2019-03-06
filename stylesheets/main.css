@@ -30,31 +30,18 @@ div.login {
 div.nav {
   background-color: #052E63;
   font-size: 12;
-  display: grid;
-  grid-template: 40px / repeat(5,1fr);
-  align-items: center;
-  justify-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 30px;
   border-top: solid #DAE2ED 1px;
   border-bottom: solid #DAE2ED 1px;
-}
-
-div.building {
-grid-column: 2/3;
-}
-
-div.art {
-  grid-column: 3/4 ;
-}
-
-div.featured {
-  grid-column: 4/5 ;
 }
 
 div.banner {
   display: inline-block;
   padding-left: 20px;
   background-color: maroon;
-  background: url(https://303magazine.com/wp-content/uploads/2016/04/denver-art-museum.jpg) no-repeat 0% 0%;
+  background: url(https://303magazine.com/wp-content/uploads/2016/04/denver-art-museum.jpg) no-repeat 0% 50%;
   /*background: url(art_museum.jpg) no-repeat 0% 0%  */
   background-size: cover;
   width: 100%;
